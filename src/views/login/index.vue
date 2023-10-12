@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="logo">
-      <img
-        alt="logo"
-        src="/logo.png"
-        style="width: 35px;"
-      />
+<!--      <img-->
+<!--        alt="logo"-->
+<!--        src="/logo.png"-->
+<!--        style="width: 35px;"-->
+<!--      />-->
       <div class="logo-text">{{ AppTitle }}</div>
     </div>
     <LoginBanner />

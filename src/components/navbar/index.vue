@@ -2,11 +2,11 @@
   <div class="navbar">
     <div class="left-side">
       <a-space>
-        <img
-          alt="logo"
-          src="/logo.png"
-          style="height: 33px;overflow: hidden;"
-        />
+<!--        <img-->
+<!--          alt="logo"-->
+<!--          src="/logo.png"-->
+<!--          style="height: 33px;overflow: hidden;"-->
+<!--        />-->
         <a-typography-title
           :style="{ margin: 0, fontSize: '18px' }"
           :heading="5"

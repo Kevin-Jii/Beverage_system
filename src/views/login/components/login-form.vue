@@ -3,7 +3,7 @@
     <div class="login-form-title">{{ loginTitle }}</div>
     <div class="login-form-sub-title">
       {{ loginSubTitle }}
-      <div style="font-size: 12px;color: #1890ff;">测试账号：gofly,密码：gofly123</div>
+<!--      <div style="font-size: 12px;color: #1890ff;">测试账号：gofly,密码：gofly123</div>-->
     </div>
     <div class="login-form-error-msg">{{ errorMessage }}</div>
     <a-form

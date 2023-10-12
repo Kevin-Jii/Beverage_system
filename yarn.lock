@@ -288,6 +288,13 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
+"@aomao/plugin-video@^2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@aomao/plugin-video/-/plugin-video-2.10.0.tgz#cf506a34fbfd5f97df95e8779402aba49e433291"
+  integrity sha512-6ippfq2PHIZAsGCg2xhQvi00hOmG4UTwx5ZRVh2Q5PwEa2TNOYmFNr0coE7NRZMfTL80zGfQReNqKScmFFPyaw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
 "@aomao/toolbar-vue@^2.9":
   version "2.10.1"
   resolved "https://registry.npmmirror.com/@aomao/toolbar-vue/-/toolbar-vue-2.10.1.tgz#254944e9662a65ac6d7342f2f3c3269a8fec2652"
