@@ -5,6 +5,10 @@ import type { TableColumnData } from '@arco-design/web-vue/es/table/interface';
       title: '用户名',
       dataIndex: 'name',
       slotName: 'name',
+    }, {
+      title: '账号',
+      dataIndex: 'username',
+      slotName: 'username',
     },
     {
       title: '头像',
@@ -30,6 +34,11 @@ import type { TableColumnData } from '@arco-design/web-vue/es/table/interface';
       dataIndex: 'remark',
       slotName: 'remark',
       align:"center"
+    },
+    {
+      title: '手机号',
+      dataIndex: 'mobile',
+      slotName: 'mobile',
     },
     {
       title: '状态',

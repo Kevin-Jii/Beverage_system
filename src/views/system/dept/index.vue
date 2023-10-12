@@ -51,7 +51,7 @@
         :size="size"
         :default-expand-all-rows="true"
         ref="artable"
-        @change="handleChange" 
+        @change="handleChange"
       >
         <template #title="{ record }">
           <span v-html="record.spacer" style="padding-right: 5px;color: var(--color-neutral-4);"></span>{{ record.name }}
@@ -200,7 +200,7 @@
        }
     }catch (error) {
       Message.clear("top")
-    } 
+    }
   }
   //删除数据
   const handleDel=async(record:any)=>{
@@ -213,7 +213,7 @@
        }
     }catch (error) {
       Message.clear("top")
-    } 
+    }
   }
 </script>
 

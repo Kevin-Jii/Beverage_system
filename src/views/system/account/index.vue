@@ -51,8 +51,8 @@
         :size="size"
         :default-expand-all-rows="true"
         ref="artable"
-        @page-change="handlePaageChange" 
-        @page-size-change="handlePaageSizeChange" 
+        @page-change="handlePaageChange"
+        @page-size-change="handlePaageSizeChange"
       >
         <template #name="{ record }">
          {{ record.name }}<span v-if="record.nickname" style="padding-left: 5px;color: var(--color-neutral-4);">{{ record.nickname }}</span>
@@ -228,7 +228,7 @@
        }
     }catch (error) {
       Message.clear("top")
-    } 
+    }
   }
   //删除数据
   const handleDel=async(record:any)=>{
@@ -241,7 +241,7 @@
        }
     }catch (error) {
       Message.clear("top")
-    } 
+    }
   }
 </script>
 
